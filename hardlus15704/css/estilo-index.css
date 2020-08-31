@@ -192,11 +192,22 @@ iframe {
 }
 
 #container-foto {
-  background-image: url(../img/Equipo-nacional.jpg);
+  background-image: url(../img/Hardlus-nacional-2020.jpg);
   background-size: cover;
   background-position: 50% 90%;
   height: 90vh;
   max-height: 100vw;
+  animation-name: deslizar-fotitos;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes deslizar-fotitos {
+  0% { background-image: url(../img/Hardlus-nacional-2020.jpg); }
+  45% { background-image: url(../img/Hardlus-nacional-2020.jpg); }
+  55% { background-image: url(../img/Hardlus-Ocuilan.jpg); }
+  100% { background-image: url(../img/Hardlus-Ocuilan.jpg); }
 }
 
 #logo-grande {
