@@ -5,7 +5,7 @@
 ******************/
 
 header {
-  background-color: var(--rojo);
+  background-color: var(--negro);
 }
 
 header * {
@@ -13,7 +13,7 @@ header * {
 }
 
 header h1 {
-
+  color: var(--rojo);
 }
 
 /************************

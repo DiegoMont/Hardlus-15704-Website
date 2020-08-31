@@ -6,7 +6,7 @@
 
 
 header {
-  background-color: #000000;
+  background-color: var(--negro);
   border-bottom: 1rem solid var(--rojo);
 }
 
@@ -17,7 +17,7 @@ header * {
 header h1 {
   color: var(--blanco-texto);
   text-transform: uppercase;
-  /*font-weight: 400;*/
+  font-weight: 400;
 }
 
 /*************************
@@ -90,7 +90,7 @@ section.frase-motivadora {
 *************************/
 
 section.que-ofrece {
-  background-color: #000;
+  background-color: var(--negro);
 }
 
 .que-ofrece h5 {
@@ -139,14 +139,15 @@ section.que-ofrece {
 **********************/
 
 section.cubrebocas {
-  background-color: var(--rojo);
+  background-color: var(--blanco-texto);
 }
 
 .cubrebocas * {
-  color: var(--blanco-texto);
+  color: var(--negro-texto);
 }
 
 .cubrebocas h2 {
+  color: var(--rojo);
   font-weight: 300;
   text-align: left;
   max-width: 35rem;
@@ -178,4 +179,28 @@ iframe {
   width: 90%;
   height: 60vh;
   margin: 2rem auto;
+}
+
+/**************************
+*                         *
+*     Foto del equipo     *
+*                         *
+***************************/
+
+#foto-equipo {
+  padding: 0;
+}
+
+#container-foto {
+  background-image: url(../img/Equipo-nacional.jpg);
+  background-size: cover;
+  background-position: 50% 90%;
+  height: 90vh;
+  max-height: 100vw;
+}
+
+#logo-grande {
+  display: block;
+  width: 85%;
+  margin: 0 auto;
 }

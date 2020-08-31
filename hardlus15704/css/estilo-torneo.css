@@ -1,271 +1,68 @@
-* {
-  color: var(--negro-texto);
-  padding: 0;
-  border: none;
-  margin: 0;
-  text-decoration: none;
-  font-family: Helvetica, Arial, sans-serif;
+header {
+  background-image: url('../img/torneo-FIFA/fifa_background_hd.png');
+  background-size: cover;
+  background-position-x: 20%;
 }
 
-html {
-  font-size: 18px;
+h1 {
+  color: var(--blanco-texto);
 }
-/*clases de alrededor del sitio, creadas por Dieguito*/
-header {
-  background-color: var(--rojo);
+
+h2 {
+  color: var(--rojo);
 }
-/*Lo demas ya es mio*/
-.titulo{
-    font-family: Verdana, sans-serif;;
-    font-size: 40px;
-    font-weight: bold;
-    color: white;
+
+header .parrafo {
+  color: var(--blanco-texto);
 }
-.row-padding,.row-padding>third{
-  padding:0 8px;
+
+.fondo-texto {
+  background-color: rgba(25, 25, 25, 0.5);
+  padding: 2rem 0;
 }
-.content{
-  margin-left:auto;
-  margin-right:auto;
-  max-width:980px;
+
+header span {
+  color: var(--rojo);
+  font-size: 3rem;;
+  font-weight: 700;
 }
-.row-padding:after,.row-padding:before{
-  content:"";
-  display:table;
-  clear:both;
+
+/**********************************
+*                                 *
+*     Links para Google Forms     *
+*                                 *
+***********************************/
+
+#forms-registro {
+  background-color: #000;
 }
-.black,.hover-black:hover{
-  color:#fff!important;
-  background-color:#000!important;
+
+.pasos {
+  background-color: var(--blanco-texto);
+  width: 30%;
+  min-width: 250px;
+  margin-top: 1.5rem;
 }
-.padding-64{padding-top:64px!important;
-  padding-bottom:64px!important;
+
+.pasos h6, .pasos p {
+  margin: 0 1rem;
 }
-.padding-32{
-  padding-top:32px!important;
-  padding-bottom:32px!important;
+
+.pasos h6 {
+  text-align: left;
 }
-.third{
-  float:left;
-  width:100%;
+
+.link-form {
+  color: var(--blanco-texto);
+  background-color: var(--negro);
+  font-size: 0.8rem;
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border: 2px solid var(--negro);
+  margin: 0.5rem 1rem;
 }
-@media (min-width: 600px) {
-  .third{
-    width: 32%;
-  }
-}
-.tool-margin-bottom{
-  margin-bottom:16px!important;
-}
-.container{
-  padding:0.01em 16px;
-}
-.white-color{
-  color:#000!important;
-  background-color:#fff!important;
-}
-.button-des{
-  border:none;
-  display:inline-block;
-  padding:8px 16px;
-  vertical-align:middle;
-  overflow:hidden;
-  text-decoration:none;
-  color:inherit;
-  background-color:inherit;
-  text-align:center;
-  cursor:pointer;
-  white-space:nowrap;
-}
-#paso-numero{
-  font-family: Impact, Charcoal, sans-serif;
-  font-size: 30px;
-}
-section #pasos{
-  padding: 3%;
-  margin: 10px 1rem;
-  background-color: #92a8d1;
-}
-span{
-  position: relative;
-  width: inherit;
-}
-.pasos-background-esquinas{
-  border-right-style: solid;
-  border-left-style: solid;
-  border-right-width: 8rem;
-  border-left-width: 8rem;
-  border-left-color: #c00000;
-  border-right-color: #c00000;
-  min-width: 30px;
-}
-/* Extract from normalize.css by Nicolas Gallagher and Jonathan Neal git.io/normalize */
-html{
-  -ms-text-size-adjust:100%;
-  -webkit-text-size-adjust:100%;
-  }
-body{
-  margin:0;
-}
-article,aside,details,figcaption,figure,footer,header,main,menu,nav,section{
-  display:block;
-}
-summary{
-  display:list-item;
-}
-progress{
-  vertical-align:baseline;
-}
-audio:not([controls]){
-  display:none;
-  height:0;
-  }
-[hidden],template{
-  display:none;
-}
-a{
-  background-color: width;
-}
-a:active,a:hover{
-  outline-width:0;
-}
-small{
-  font-size:80%;
-}
-sub,sup{
-  font-size:75%;
-  line-height:0;
-  position:relative;
-  vertical-align:baseline
-}
-sub{
-  bottom:-0.25em;
-}
-sup{
-  top:-0.5em;
-}
-figure{
-  margin:1em 40px;
-}
-img{
-  border-style:none;
-}
-code,kbd,pre,samp{
-  font-family:monospace,monospace;
-  font-size:1em;
-  }
-hr{
-  box-sizing:content-box;
-  height:0;
-  overflow:visible;
-}
-button,input,select,textarea,optgroup{
-  font:inherit;
-  margin:0;
-}
-optgroup{
-  font-weight:bold;
-}
-button,input{
-  overflow:visible;
-}
-button,select{
-  text-transform:none;
-}
-button,[type=button],[type=reset],[type=submit]{
-  -webkit-appearance:button;
-}
-button::-moz-focus-inner,[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner{
-  border-style:none;
-  padding:0;
-}
-button:-moz-focusring,[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring{
-  outline:1px dotted ButtonText;
-}
-fieldset{
-  border:1px solid #c0c0c0;
-  margin:0 2px;
-  padding:.35em .625em .75em;
-}
-legend{color:inherit;
-  display:table;
-  max-width:100%;
-  padding:0;
-  white-space:normal;
-}
-[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}
-/* End extract */
-html,body{
-  font-family:Verdana,sans-serif;
-  font-size:15px;
-  line-height:1.5;
-}
-html{
-  overflow-x:hidden;
-}
-h1{
-  font-size:36px;
-}
-h2{
-  font-size:30px;
-}
-h3{
-  font-size:24px;
-}h4{
-  font-size:20px;
-}
-h5{
-  font-size:18px;
-}
-h6{
-  font-size:16px;
-}
-.serif{
-  font-family:serif;
-}
-h1,h2,h3,h4,h5,h6{
-  font-family:"Segoe UI",Arial,sans-serif;
-  font-weight:400;
-  margin:3% 0;
-}
-.wide{
-  letter-spacing:4px
-}
-hr{
-  border:0;
-  border-top:1px solid #eee;
-  margin:20px 0;
-}
-.image{
-  max-width:100%;
-  height:auto;
-}
-img{
-  vertical-align:middle;
-}
-a{
-  color:inherit;
-}
-.table,.table-all{
-  border-collapse:collapse;
-  border-spacing:0;
-  width:100%;
-  display:table
-}
-.table-all{
-  border:1px solid #ccc;
-}
-.bordered tr,.table-all tr{
-  border-bottom:1px solid #ddd;
-}
-.table-all tr:nth-child(odd){
-  background-color:#fff;
-}
-.table-all tr:nth-child(even){
-  background-color:#f1f1f1;
-}
-.hoverable tbody tr:hover,.w3-ul.w3-hoverable li:hover{
-  background-color:#ccc;}
-.centered tr th,.w3-centered tr td{
-  text-align:center;
+
+.link-form:hover {
+  color: var(--negro);
+  background-color: var(--blanco-texto);
 }
