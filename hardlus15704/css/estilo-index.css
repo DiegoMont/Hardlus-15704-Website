@@ -270,3 +270,16 @@ iframe {
 #concurso-arte a:hover {
   background-color: #000;
 }
+
+@media screen and (max-width: 780px) {
+  #concurso-arte a {
+    width: 75%;
+    padding: 1rem 1.5rem;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  #concurso-arte a {
+    width: 90%;
+  }
+}

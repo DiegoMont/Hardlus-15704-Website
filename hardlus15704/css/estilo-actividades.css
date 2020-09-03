@@ -125,6 +125,7 @@ a.back-img-azul {
 #imagen-ganadora {
   display: block;
   height: 90vh;
+  max-height: 115vw;
   width: auto;
   margin: 0 auto;
 }
