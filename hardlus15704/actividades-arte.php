@@ -24,18 +24,10 @@
   <body>
 
     <nav>
-      <div class="centre nav-grid">
-        <div class="btns-nav flexbox">
-          <a  class="btn" href="index.html">Home</a>
-          <a  class="btn" href="menu-STEM.html" id="btn-pagina-actual">Actividades</a>
-          <a class="btn" href="torneo.html">Torneo</a>
-        </div>
-        <div class="logo-nav">
-          <a href="http://www.nautilus4010.com/hardlus15704">
-            <img src="img/hardlus-sin-fondo-blanco.png" alt="Hardlus 15704">
-          </a>
-        </div>
-      </div>
+      <?php
+      require("php/main-nav.php");
+      printNav($indice_actividades);
+      ?>
     </nav>
     <div id="espacio-nav"></div>
 
@@ -47,15 +39,11 @@
       </div>
     </header>
 
-    <nav class="select-area">
-      <div class="centre flexbox">
-        <a href="actividades-ciencia.html" class="btn-area btn back-img-verde opacar">Ciencia</a>
-        <a href="actividades-tecnologia.html" class="btn-area btn back-img-amarillo opacar">Tecnolog&iacute;a</a>
-        <a href="actividades-ingenieria.html" class="btn-area btn back-img-azul opacar">Ingenier&iacute;a</a>
-        <a href="actividades-matematicas.html" class="btn-area btn back-img-naranja opacar">Matem&aacute;ticas</a>
-        <a href="actividades-ecologia.html" class="btn-area btn back-img-ecologia opacar">Ecolog&iacute;a</a>
-        <a href="actividades-arte.html" class="btn-area btn back-img-arte">Artes</a>
-      </div>
+    <nav class="select-area">}
+      <?php
+      require("php/nav-stem.php");
+      printNavStem(5);
+      ?>
     </nav>
 
     <section id="ganador-concurso">
@@ -106,28 +94,9 @@
     </section>-->
 
     <footer>
-      <div class="centre flexbox iconos-redes">
-        <div class="redes-sociales">
-          <a href="https://www.instagram.com/hardlus_15704/" target="_blank">
-            <img src="img/instagram.svg" alt="hardlus_15704">
-          </a>
-        </div>
-        <div class="redes-sociales">
-          <a href="https://twitter.com/Hardlus15704" target="_blank">
-            <img src="img/twitter.svg" alt="@Hardlus15704">
-          </a>
-        </div>
-        <div class="redes-sociales">
-          <a href="https://www.facebook.com/Hardlus15704/" target="_blank">
-            <img src="img/facebook.svg" alt="Hardlus 15704">
-          </a>
-        </div>
-      </div>
-      <div>Icons made by <a href="https://www.flaticon.com/authors/roundicons" title="Roundicons">Roundicons</a> from <a href="https://www.flaticon.com/"     title="Flaticon">www.flaticon.com</a></div><div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/"     title="Flaticon">www.flaticon.com</a></div>
-      <div>Iconos diseñados por <a href="https://www.flaticon.es/autores/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.es/" title="Flaticon">www.flaticon.es</a></div>
-      <div class="centre firma flexbox">
-        <a href="https://github.com/DiegoMont" class="firma">&lt;/&gt; with <span id="corazon" class="firma">&#9829;</span> by <span class="firma">DiegoMont</span></a>
-      </div>
+      <?php
+      include "php/footer.php";
+      ?>
     </footer>
     <script src="js/interactividad.js" charset="utf-8"></script>
   </body>

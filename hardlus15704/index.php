@@ -25,18 +25,10 @@
   <body>
 
     <nav>
-      <div class="centre nav-grid">
-        <div class="btns-nav flexbox">
-          <a  class="btn" href="#" id="btn-pagina-actual">Home</a>
-          <a  class="btn" href="menu-STEM.html">Actividades</a>
-          <a class="btn" href="torneo.html">Torneo</a>
-        </div>
-        <div class="logo-nav">
-          <a href="http://www.nautilus4010.com/hardlus15704">
-            <img src="img/hardlus-sin-fondo-blanco.png" alt="Hardlus 15704">
-          </a>
-        </div>
-      </div>
+      <?php
+      require("php/main-nav.php");
+      printNav($indice_home);
+      ?>
     </nav>
     <div id="espacio-nav"></div>
 

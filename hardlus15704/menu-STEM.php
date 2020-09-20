@@ -24,18 +24,10 @@
   <body>
 
     <nav>
-      <div class="centre nav-grid">
-        <div class="btns-nav flexbox">
-          <a  class="btn" href="index.html">Home</a>
-          <a  class="btn" href="#" id="btn-pagina-actual">Actividades</a>
-          <a class="btn" href="torneo.html">Torneo</a>
-        </div>
-        <div class="logo-nav">
-          <a href="http://www.nautilus4010.com/hardlus15704">
-            <img src="img/hardlus-sin-fondo-blanco.png" alt="Hardlus 15704">
-          </a>
-        </div>
-      </div>
+      <?php
+      require("php/main-nav.php");
+      printNav($indice_actividades);
+      ?>
     </nav>
     <div id="espacio-nav"></div>
 
@@ -49,16 +41,16 @@
 
     <section class="botones-areas">
       <div class="centre">
-        <a href="actividades-ciencia.html" class="btn-area btn ciencia back-img-verde">
+        <a href="actividades-ciencia.php" class="btn-area btn ciencia back-img-verde">
           <span class="sigla">S</span>cience - Ciencia<span class="haz-click">Haz click aqu&iacute;</span>
         </a>
-        <a href="actividades-tecnologia.html" class="btn-area btn technology back-img-amarillo">
+        <a href="actividades-tecnologia.php" class="btn-area btn technology back-img-amarillo">
           <span class="sigla">T</span>echnology - Tecnolog&iacute;a<span class="haz-click">Haz click aqu&iacute;</span>
         </a>
-        <a href="actividades-ingenieria.html" class="btn-area btn engineering back-img-azul">
+        <a href="actividades-ingenieria.php" class="btn-area btn engineering back-img-azul">
           <span class="sigla">E</span>ngineering - Ingenier&iacute;a<span class="haz-click">Haz click aqu&iacute;</span>
         </a>
-        <a href="actividades-matematicas.html" class="btn-area btn maths back-img-naranja">
+        <a href="actividades-matematicas.php" class="btn-area btn maths back-img-naranja">
           <span class="sigla">M</span>athematics - Matem&aacute;ticas<span class="haz-click">Haz click aqu&iacute;</span>
         </a>
       </div>
@@ -68,10 +60,10 @@
       <div class="centre">
         <!-- Jardinería -->
         <h2>¡No te pierdas estas nuevas secciones!</h2>
-        <a href="actividades-ecologia.html" class="btn-area btn back-img-ecologia">
+        <a href="actividades-ecologia.php" class="btn-area btn back-img-ecologia">
           <span class="sigla">E</span>cology - Ecolog&iacute;a<span class="haz-click">Haz click aqu&iacute;</span>
         </a>
-        <a href="actividades-arte.html" class="btn-area btn back-img-arte">
+        <a href="actividades-arte.php" class="btn-area btn back-img-arte">
           <span class="sigla">A</span>rts - Artes<span class="haz-click">Haz click aqu&iacute;</span>
         </a>
 
@@ -79,27 +71,9 @@
     </section>
 
     <footer>
-      <div class="centre flexbox iconos-redes">
-        <div class="redes-sociales">
-          <a href="https://www.instagram.com/hardlus_15704/" target="_blank">
-            <img src="img/instagram.svg" alt="hardlus_15704">
-          </a>
-        </div>
-        <div class="redes-sociales">
-          <a href="https://twitter.com/Hardlus15704" target="_blank">
-            <img src="img/twitter.svg" alt="@Hardlus15704">
-          </a>
-        </div>
-        <div class="redes-sociales">
-          <a href="https://www.facebook.com/Hardlus15704/" target="_blank">
-            <img src="img/facebook.svg" alt="Hardlus 15704">
-          </a>
-        </div>
-      </div>
-      <div>Icons made by <a href="https://www.flaticon.com/authors/roundicons" title="Roundicons">Roundicons</a> from <a href="https://www.flaticon.com/"     title="Flaticon">www.flaticon.com</a></div><div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/"     title="Flaticon">www.flaticon.com</a></div>
-      <div class="centre firma flexbox">
-        <a href="https://github.com/DiegoMont" class="firma">&lt;/&gt; with <span id="corazon" class="firma">&#9829;</span> by <span class="firma">DiegoMont</span></a>
-      </div>
+      <?php
+      include "php/footer.php";
+      ?>
     </footer>
     <script src="js/interactividad.js" charset="utf-8"></script>
   </body>

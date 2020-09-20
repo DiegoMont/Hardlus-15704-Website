@@ -16,7 +16,6 @@ header * {
 
 header h1 {
   color: var(--blanco-texto);
-  text-transform: uppercase;
   font-weight: 400;
 }
 
