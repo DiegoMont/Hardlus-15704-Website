@@ -115,7 +115,7 @@
           <img src="img/integrantes/Ernesto.jpg" alt="Ernesto" class="foto-persona">
           <div>
             <h4>Ernesto</h4>
-            <p class="parrafo">Tengo 16 años y soy integrante de Hardlus 15704, líder en el área de ingeniería, donde mi principal enfoque es programación. Actualmente estudio el 5° semestre de prepa. Esta es mi tercer temporada en FIRST. Aprendí a programar en sexto de primaria, con Visual Basic y lenguaje C, después aprendí C# y programé algunos videojuegos de plataforma. Conocí FIRST al entrar al Tec, ya que mi principal enfoque era aprender nuevos lenguajes de programación. En Nautilus fuí programador y Driver en la temporada de Skystone de FTC. En Hardlus busco lograr un Control Award para el equipo, teniendo la organización como valor fundamental, así como un Winners nacional.</p>
+            <p class="parrafo">Tengo 17 años y soy integrante de Hardlus 15704, líder en el área de ingeniería, donde mi principal enfoque es programación. Actualmente estudio el 5° semestre de prepa. Esta es mi tercer temporada en FIRST. Aprendí a programar en sexto de primaria, con Visual Basic y lenguaje C, después aprendí C# y programé algunos videojuegos de plataforma. Conocí FIRST al entrar al Tec, ya que mi principal enfoque era aprender nuevos lenguajes de programación. En Nautilus fuí programador y Driver en la temporada de Skystone de FTC. En Hardlus busco lograr un Control Award para el equipo, teniendo la organización como valor fundamental, así como un Winners nacional.</p>
           </div>
         </div>
       </div>
