@@ -62,7 +62,7 @@
 
       <div class="contenedor fondo-gris">
         <div class="centre grid">
-          <img src="" alt="Zwamy" class="foto-persona">
+          <img src="img/integrantes/Zwamy.jpg" alt="Zwamy" class="foto-persona">
           <div>
             <h4>Zwamy</h4>
             <p class="parrafo">Tengo 15 años y voy en 3° semestre de prepa. Desde hace mucho tiempo he tenido el objetivo de estudiar ingeniería biomédica pero nunca había tenido un acercamiento tan grande a esta rama. Por eso, cuando me enteré del equipo de Nautilus me emocioné muchísimo porque sabía que si me daban la oportunidad podría aprender mucho más de la carrera que siempre he estado interesada. En verdad estoy muy contenta de haber entrado a Hardlus y aprender con todos sobre la robótica y con el tiempo he aprendido mucho sobre la programación del robot y la mecánica, que son las dos áreas en las que me especializo para luego pasar todos esos conocimientos que aprendí, a las siguientes generaciones de Hardlus.</p>
@@ -92,7 +92,7 @@
 
       <div class="contenedor fondo-gris">
         <div class="centre grid">
-          <img src="" alt="Daniel" class="foto-persona">
+          <img src="img/integrantes/Daniel.jpg" alt="Daniel" class="foto-persona">
           <div>
             <h4>Daniel</h4>
             <p class="parrafo">Tengo 15 años voy en 3° semestre de prepa. Cuando iba en secundaria tomé varios cursos de robótica en RobotiX. Cuando entré al Tec no sabía nada de FIRST o de si había equipos de robótica, el día que nos contaron que existía Nautilus me interesó totalmente entrar ya que siempre me han interesado la ingeniería. En Hardlus tengo dos objetivos: aprender todo lo que pueda del equipo y la competencia, desde programación y mecánica como trabajo en equipo. Mi segundo objetivo es la retribución a este equipo de FTC, quiero usar el conocimiento adquirido para mejorar al equipo. Al final me gustaría enseñar lo que sé a la siguiente generación, para así completar el ciclo e inspirarlos a fomentar el STEM. Trabajo principalmente en mecánica y programación. También me interesa la parte de negocios.</p>
@@ -102,10 +102,10 @@
 
       <div class="contenedor fondo-gris">
         <div class="centre grid">
-          <img src="" alt="Victoria" class="foto-persona">
+          <img src="img/integrantes/Victoria.jpg" alt="Victoria" class="foto-persona">
           <div>
             <h4>Victoria</h4>
-            <p class="parrafo">Tengo 17 años y estudio quinto semestre de prepa. Me integré a Nautilus porque me encanta la robótica por la amplitud de sus aplicaciones y la precisión implícita en la interacción entre sus elementos. Considero indispensable estimar la importancia de un equipo sólido y diverso para superar estos retos. En Hardlus, tengo la convicción de que, fusionando capacidades con asiduidad, nos será posible cumplir con los objetivos impuestos. Mi área de enfoque es la ingeniería, haciendo énfasis en la programación del robot en relación con su mecánica. Adicionalmente, colaboro con Acciones por México y comunicación. Me encantan todas las formas de expresión del arte contemporáneo, la literatura hispanoamericana, la filosofía y la música clásica.También, me apasiona dedicar mi tiempo libre al estudio de la astrofísica y la cosmología.</p>
+            <p class="parrafo">Tengo 17 años y estudio el 5° semestre de prepa. Soy co-líder de Acciones x México y mi enfoque principal es el área de ingeniería; en donde participo en las secciones de mecánica y programación. El motivo de mi integración a FIRST y áreas STEM en general radica en el potencial que encuentro en sus aplicaciones y metodologías para generar crecimiento y modernización en el mundo. Estoy convencida de que todo potencial individual puede trascender y fortalecerse por medio de la colaboración y el reconocimiento de las habilidades del otro. Para mí, el futuro es un concepto compartido que establece como prioridad nuestra habilidad para dinamizar procesos y ampliar nuestro conocimiento de manera acumulativa con el fin de crear nuestra propia oportunidad de persistir conscientemente en la búsqueda del progreso.</p>
           </div>
         </div>
       </div>
@@ -122,7 +122,7 @@
 
       <div class="contenedor fondo-gris">
         <div class="centre grid">
-          <img src="" alt="Sarah" class="foto-persona">
+          <img src="img/integrantes/Sarah.jpg" alt="Sarah" class="foto-persona">
           <div>
             <h4>Sarah</h4>
             <p class="parrafo">Tengo 15 años y estoy en 3° semestre de prepa. Formo parte de ingeniería, especialmente en CAD y programación, y AxM. En el pasado, aprendí a hacer páginas web con lenguaje HTML, con ello me di cuenta de lo que quería aportar a Hardlus. Me emociona mucho ser parte de un equipo que comparta los mismos intereses que yo y conocer a gente nueva es otra de las cosas que realmente me hace feliz. Igualmente, espero impactar a mi comunidad y al resto del país con acciones benéficas. Estoy trabajando muy duro para estudiar biotecnología en Alemania. Me apasionan los conciertos: mis preferidos son los de bandas de rock o festivales de música. También, me gusta leer y aprender idiomas en mi tiempo libre. Mis mejores recuerdos de PrepaTec han sido gracias a los amigos que he conocido en el equipo.</p>
@@ -164,7 +164,7 @@
 
       <div class="contenedor fondo-gris">
         <div class="centre grid">
-          <img src="" alt="Mariano" class="foto-persona">
+          <img src="img/integrantes/Mariano.jpg" alt="Mariano" class="foto-persona">
           <div>
             <h4>Mariano</h4>
             <p class="parrafo">Tengo 16 años, estoy en 2° semestre de prepa. Desde primaria me gustó la robótica, tomaba cursos en Robotix e iba a competencias con ellos. Ahí aprendí a programar; primero en Lego Mindstorm y después en Arduino. Mi interés en la robótica aumentó cuando entre al Tec y conocí Nautilus y FIRST. Uno de mis objetivos al entrar Nautilus era que me ayudara a decidir qué carrera estudiar. Mis objetivos en Hardlus son poder mejorar al equipo y que cada año se vuelva más capaz, pasármela bien con todos los integrantes y poder aprender mucho de todos y de mi mismo, mis capacidades y debilidades. Mis hobbies son el dibujo, la fotografía, conducir y videojuegos. En Hardlus me interesan las áreas de ingeniería y Acciones x México.</p>
@@ -174,7 +174,7 @@
 
       <div class="contenedor fondo-gris">
         <div class="centre grid">
-          <img src="" alt="Celeste" class="foto-persona">
+          <img src="img/integrantes/Celeste.jpg" alt="Celeste" class="foto-persona">
           <div>
             <h4>Cel</h4>
             <p class="parrafo">Tengo 15 años y estoy cursando 2° semestre de prepa en PrepaTec. Me gusta hablar y disfruto tanto participar en diversos certámenes de oratoria y declamación, como simplemente asistir de oyente. Amo los perros y todo tipo de animales. Mi interacción con la robótica empezó el semestre pasado cuando me uní a Nautilus 4010 por la idea de ser “más que robots”. Mi área de interés es negocios y patrocinios, ya que en ellas exploto más mis capacidades y habilidades; también, disfruto mucho aprender cosas nuevas. No me canso de repetir lo mucho que el equipo me ha ayudado y me emociona mucho participar como Hardlus. Más allá del aprendizaje práctico y teórico, he tenido el placer de conocer mejor a todos los integrantes, aprendo mucho de las personas y estoy en una constante búsqueda de compañeros me inspiren a crecer con ellos.</p>
@@ -188,6 +188,26 @@
           <div>
             <h4>Arturo</h4>
             <p class="parrafo">Tengo 16 años y estoy cursando 3° semestre en PrepaTec. Desde hace varios años me interesa la robótica y he participado en algunos eventos, sin embargo, este año es mi primera temporada de FTC. Me parece muy interesante todo lo que se hace en el equipo y creo que todo lo que he aprendido en el equipo me será muy útil, ya que me gustaría estudiar alguna ingeniería. Me gustan mucho las áreas de ingeniería (mecánica y CAD) y social (AxM). En Hardlus, me gusta mucho aprender sobre cosas nuevas, especialmente sobre STEM, y colaborar con todos los miembros del equipo. Algunos de mis hobbies son leer, tomar fotografías, jugar videojuegos y platicar con las personas.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="contenedor fondo-gris">
+        <div class="centre grid">
+          <img src="" alt="Igna" class="foto-persona">
+          <div>
+            <h4>Igna</h4>
+            <p class="parrafo">Tengo 15 años y actualmente estudio el 2° semestre de la prepa. Como pasatiempos tengo los videojuegos, leer cómic y jugar basketball . Entré a Nautilus porque quero probar cosas nuevas y adquirir experiencia para mis estudios universitarios. En Hardlus quiero ser un miembro valioso para el equipo que destaque por su entrega y compromiso. Espero apoyar al equipo con mi participación constante y dejar una marca en el equipo para formar una reputación y facilitar las cosas para las siguientes generaciones que lleguen a Hardlus. Mi área de interés principal es la ingeniería ya que como mencioné antes quiero obtener experiencia y conocimiento para mis estudios posteriores que espero se relacionen con esta área.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="contenedor fondo-gris">
+        <div class="centre grid">
+          <img src="img/integrantes/Abi.jpg" alt="Abi" class="foto-persona">
+          <div>
+            <h4>Abi</h4>
+            <p class="parrafo">Tengo 17 años y estoy cursando 3° semestre de prepa. Mi primer acercamiento a FIRST fue con el equipo de robótica en University City High School cuando viví en California en 2019. Al regresar a México me emocionó saber que en mi campus existía Nautilus y decidí formar parte de él. Me ilusiona mucho ser parte de Hardlus porque el equipo está formado por personas capaces, comprometidas y con ganas de generar un cambio. He aprendido mucho de mis compañeros, he obtenido un mayor conocimiento de la construcción y programación del robot, así como de los proyectos sociales. Dentro de Hardlus mi principal área de interés es ingeniería, tanto mecánica como programación y también apoyo en los proyectos sociales.  En cuanto a mis intereses o hobbies practico Karate-Do, me fascina bailar, viajar y leer.</p>
           </div>
         </div>
       </div>
