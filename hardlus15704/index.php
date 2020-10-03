@@ -90,7 +90,23 @@
         <div class="frase-der flexbox">
           <img id="foto-ingenieria" src="img/Hardlus_regional_norte.jpeg" alt="Equipo de ingenieria arreglando nuestro robot durante el Regional Norte 2019">
         </div>
+      </div>
+    </section>
 
+    <section class="patrocinadores">
+      <div class="centre">
+        <h1>Nuestros patrocinadores</h1>
+        <div class="patrocinadores-tabla">
+          <div class="img-patrocinadores">
+            <img src="img/logo_nautilus.png" alt="Nautilus">
+          </div>
+          <div class="img-patrocinadores" id="gobilda">
+            <img src="img/logo_gobilda.png" alt="gobilda">
+          </div>
+          <div class="img-patrocinadores" id="publica">
+            <img src="img/logo_publica.png" alt="Publica">
+          </div>
+        </div>
       </div>
     </section>
 

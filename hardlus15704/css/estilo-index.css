@@ -62,8 +62,48 @@ section.frase-motivadora {
   justify-content: flex-end;
 }
 
+section.patrocinadores{
+  background-color: var(--negro);
+}
+.patrocinadores h1{
+  color: var(--blanco-texto);
+  text-align: center;
+  font-size: 50px;
+  margin: 0 auto;
+}
+.patrocinadores-tabla{
+  display: grid;
+  position: relative;
+  grid-template-rows: max-content;
+  grid-template-columns: auto auto auto;
+  grid-gap: 20px 10px;
+  overflow: hidden;
+  padding: 10px;
+  max-width: 2000px;
+}
+.img-patrocinadores{
+  width: auto;
+}
+
+#publica, #gobilda{
+  background-color: rgb(237, 226, 226);
+  position: relative;
+  top: 25%;
+  bottom: 25%;
+}
+
 #foto-ingenieria {
   width: auto;
+}
+@media screen and (max-width: 700px){
+  .patrocinadores, ..patrocinadores-tabla{
+    width: 100%
+    margin: 1em 0;
+  }
+  .img-patrocinadores{
+    width: 90%;
+    height: auto;
+  }
 }
 
 @media screen and (max-width: 700px){
