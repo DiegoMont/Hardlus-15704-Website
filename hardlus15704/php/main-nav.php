@@ -5,8 +5,7 @@ class Boton {
   private $texto_btns = array(
     array("index.php", "Home"),
     array("our-team.php", "Nosotros"),
-    array("menu-STEM.php", "Actividades"),
-    array("torneo.html", "Torneo")
+    array("menu-STEM.php", "Actividades")
   );
 
   function __construct($indice){
