@@ -68,14 +68,14 @@
     <section id="concurso-arte">
       <div class="centre">
         <h2>Conoce la foto ganadora de nuestro Concurso de Arte</h2>
-        <a class="btn" href="actividades-arte.html#ganador-concurso">Conoce m&aacute;s!</a>
+        <a class="btn" href="actividades-arte.php#ganador-concurso">Conoce m&aacute;s!</a>
       </div>
     </section>
 
     <section class="que-ofrece">
       <div class="centre">
         <h5 class="parrafo">HARDLUS 15704 te ofrece m&uacute;ltiples recursos educativos de entretenimiento y manuales de apoyo para afrontar estos tiempos dif&iacute;ciles con la frente en alto.</h5>
-        <a href="menu-STEM.html" class="">¡Presiona aqu&iacute; para ver nuestras actividades!</a>
+        <a href="menu-STEM.php" class="">¡Presiona aqu&iacute; para ver nuestras actividades!</a>
       </div>
     </section>
 
